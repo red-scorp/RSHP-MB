@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "RSHP-MB-0010")
+    (date "2022-05-21")
+    (rev "1.0")
+    (company "(c) Andriy Golovnya http://redscorp.net")
+    (comment 1 "Reflow Soldering Hot Plate - Mounting Board")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x02_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 2.54 0)
@@ -1111,10 +1119,6 @@
     (uuid fb9af671-96af-438e-a109-252514aaf641)
   )
 
-  (text "RSHP-MB-0010" (at 186.69 190.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0e854c3b-7cd9-47bd-8adc-8e29fe6e44fa)
-  )
   (text "Fan Mounting Holes/\nEarth Tranfer Points" (at 134.62 114.3 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 38aff7ac-3eb2-4827-b6f7-273219a59800)
@@ -1134,10 +1138,6 @@
   (text "Earth Solder Point" (at 134.62 82.55 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid c72e423f-d163-4827-ae6d-18c9a40d592b)
-  )
-  (text "Reflow Soldering Hot Plate - Mounting Board" (at 177.8 180.34 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cedc5061-8514-4b80-8e58-fc26c3f907a4)
   )
   (text "Thermal Resistors Connector" (at 198.12 38.1 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
